@@ -5,17 +5,63 @@ namespace WinFormsApp1
         bool player = true; // T = 1 F = 2
         int contadorPlayer1 = 0;
         int contadorPlayer2 = 0;
-        string caminho1 = "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\img\\x.png";
-        string caminho2 = "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\img\\O.png";
+        public static string caminho1 = "";
+        public static string caminho2 = "";
+
+        
         public Form1()
         {
             InitializeComponent();
+
+            procurarArquivo("X.png", "O.png");
+
         }
+
+        public static string procurarArquivo(string arquivo1, string arquivo2)
+        {
+
+            string caminhoUsuario = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            string caminhoDownload = Path.Combine(caminhoUsuario, "Downloads");
+            string caminhoDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            string[] pastas = [caminhoDownload, caminhoDesktop];
+            foreach (string pastasEncontradas in pastas)
+            {
+
+                try
+                {
+                    string[] arquivos = Directory.GetFiles(pastasEncontradas, arquivo1, SearchOption.AllDirectories);
+                    if (arquivos.Length > 0)
+                    {
+                        caminho1 = arquivos[0];
+                    }
+
+                    string[] arquivos2 = Directory.GetFiles(pastasEncontradas, arquivo2, SearchOption.AllDirectories);
+                    if (arquivos2.Length > 0)
+                    {
+                        caminho2 = arquivos2[0];
+                    }
+
+
+                }
+                catch (Exception abc)
+                {
+                    MessageBox.Show(abc.Message, "Error", MessageBoxButtons.OK);
+                    throw;
+                }
+
+            }
+
+            return null;
+        }
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {

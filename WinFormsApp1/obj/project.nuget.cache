@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "QqDYv5RIDNsaj1QcoObXBTYxPrloY5qr4ts5p4IzzAwIG1JYO+qwPu3+l5tZCDiUCUSFslxTcoNobJcqO8H6pg==",
+<<<<<<< Updated upstream
+  "dgSpecHash": "rMTKVXNoCtilj81EGJxNBgRJPTU/IvxEZJN8gdQiJlggFssgipta7MPdKbx60R6xF9VZU1e0te87pq+qzgbkKg==",
   "success": true,
-  "projectFilePath": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\JogoDaVelha3.csproj",
+  "projectFilePath": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj",
+=======
+  "dgSpecHash": "TVXMuEnMeIalhlNKsyw5ybX5oJunOEEZcP/rHWgUS6GXCvmy3rXmfFeA1d/32SNBC744yuISdjGLmhKDj6Q0MA==",
+  "success": true,
+  "projectFilePath": "A:\\Meus Documentos\\Documentos\\GitHub\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

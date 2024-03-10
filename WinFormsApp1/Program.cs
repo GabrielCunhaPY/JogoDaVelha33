@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace WinFormsApp1
 {
     internal static class Program

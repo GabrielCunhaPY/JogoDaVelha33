@@ -14,10 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JogoDaVelha3
-<<<<<<< Updated upstream
-build_property.ProjectDir = A:\Meus Documentos\Área de Trabalho\PrjC#\JogoDaVelha33\WinFormsApp1\
-=======
-build_property.ProjectDir = A:\Meus Documentos\Documentos\GitHub\JogoDaVelha33\WinFormsApp1\
->>>>>>> Stashed changes
+build_property.ProjectDir = A:\Meus Documentos\Área de Trabalho\PrjC#\JogoDaVelha33-ticTacToe.v2\WinFormsApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,17 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\JogoDaVelha3.csproj": {}
+<<<<<<< Updated upstream
+    "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj": {}
   },
   "projects": {
-    "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\JogoDaVelha3.csproj": {
+    "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\JogoDaVelha3.csproj",
+        "projectUniqueName": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj",
         "projectName": "JogoDaVelha3",
-        "projectPath": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\JogoDaVelha3.csproj",
+        "projectPath": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj",
         "packagesPath": "C:\\Users\\Gabriel Cunha\\.nuget\\packages\\",
-        "outputPath": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogodaVelhaMuitoVelho\\JogoDaVelha3\\WinFormsApp1\\obj\\",
+        "outputPath": "A:\\Meus Documentos\\Área de Trabalho\\PrjC#\\JogoDaVelha33\\WinFormsApp1\\obj\\",
+=======
+    "A:\\Meus Documentos\\Documentos\\GitHub\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj": {}
+  },
+  "projects": {
+    "A:\\Meus Documentos\\Documentos\\GitHub\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Meus Documentos\\Documentos\\GitHub\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj",
+        "projectName": "JogoDaVelha3",
+        "projectPath": "A:\\Meus Documentos\\Documentos\\GitHub\\JogoDaVelha33\\WinFormsApp1\\JogoDaVelha3.csproj",
+        "packagesPath": "C:\\Users\\Gabriel Cunha\\.nuget\\packages\\",
+        "outputPath": "A:\\Meus Documentos\\Documentos\\GitHub\\JogoDaVelha33\\WinFormsApp1\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VIsualStudio\\SDK\\NuGetPackages"
